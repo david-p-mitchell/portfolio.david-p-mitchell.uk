@@ -35,5 +35,17 @@ export default defineNuxtConfig({
     },
     baseURL:'/'
   },
-  css:['~/assets/css/main.css']
+  css:['~/assets/css/main.css'],
+  nitro: {
+    preset: 'static'
+  },
+  vite: {
+    optimizeDeps: {
+      include: [
+        '@vue/devtools-core',
+        '@vue/devtools-kit',
+        'blueimp-md5', // CJS
+      ]
+    }
+  }
 })
