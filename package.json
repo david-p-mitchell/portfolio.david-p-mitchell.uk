@@ -20,6 +20,6 @@
     "@types/blueimp-md5": "^2.18.2",
     "autoprefixer": "^10.5.0",
     "postcss": "^8.5.15",
-    "tailwindcss": "^4.3.0"
+    "tailwindcss": "^4.3.1"
   }
 }
