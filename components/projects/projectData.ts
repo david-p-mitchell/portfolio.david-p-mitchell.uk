@@ -1,4 +1,5 @@
 import { Project } from '~/types/Project';
+import Typescript from '../icons/languages/Typescript.vue';
 const halliburtonIconSize = 70;
 const vlDevOpsIcons = 45;
 const vlToolsIcons = 35;
@@ -7,15 +8,27 @@ const enonIcons = 40;
 const bibleSocIcons = 40;
 export const projects: Project[] = [
   new Project({ 
-    name: 'Goals Football Internal Booking App',
+    name: 'Goals Football Internal Web Tool',
+    company: 'GoalsFootball',
+    tech: ['CSharp', 'SQL', 'DotNet', 'Git', 'Nuxt', 'Vue', 'Typescript', 'Bash', 'Json'], 
+    heading:"Goals Football",
+    subheading:'New Internal Web Tool',
+    summary:'Started a new web app, assisting in admin tasks',
+    dates:'January 2026 - Present',
+    iconSize: enonIcons,
+    toShow: false,
+    url: 'https://www.goalsfootball.co.uk/'
+  }),
+  new Project({ 
+    name: 'Goals Football Internal Tools',
     company: 'GoalsFootball',
     tech: ['CSharp', 'SQL', 'DotNet', 'TFS'], 
     heading:"Goals Football",
-    subheading:'Internal Booking App',
-    summary:'Implemented new discount capabilities in a production system, including validation, persistence, and UI integration.',
+    subheading:'Internal Tools',
+    summary:'Delivered enhancements to a production internal system, including discount functionality with validation, persistence, and UI integration. Implemented payment link integration into internal tooling.',
     dates:'November 2025 - Present',
     iconSize: enonIcons,
-    toShow: false,
+    toShow: true,
     url: 'https://www.goalsfootball.co.uk/'
   }),
   new Project({ 
