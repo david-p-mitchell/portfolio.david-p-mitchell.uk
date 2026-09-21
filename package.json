@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
+    "@tailwindcss/vite": "^4.3.3",
     "@types/blueimp-md5": "^2.18.2",
     "autoprefixer": "^10.6.1",
     "postcss": "^8.5.28",
